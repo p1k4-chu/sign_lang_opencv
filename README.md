@@ -1,14 +1,21 @@
 ## Sign Language
-The goal of this project is to build a real-time system that can:
+✋ Sign Language Detection using OpenCV
 
-Capture video using a webcam.
+A real-time sign language recognition system built using OpenCV, Deep Learning, and deployed as a Web App.
+Our model achieves 97% accuracy on the test dataset, making it fast, reliable, and highly practical.
 
-Detect and segment the hand region.
-
-Extract features from hand gestures.
-
-Classify gestures into predefined sign language symbols.
-
-This project serves as a foundation for gesture-based communication systems and can be extended to full sign-language translation.
+OVERVIEW
 The goal of this project is to recognize hand gestures representing sign language alphabets/numbers using computer vision.
 The system captures hand gesture images through a webcam, trains a classification model on custom-collected data, and performs real-time prediction via a web app.
+
+We built a complete end-to-end pipeline:
+
+Data collection using a custom script
+
+Model training
+
+Performance evaluation
+
+Real-time prediction
+
+Web-based interface for easy access
