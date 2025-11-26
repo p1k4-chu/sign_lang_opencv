@@ -1,21 +1,35 @@
-## Sign Language
-✋ Sign Language Detection using OpenCV
+# ✋ Real-Time Sign Language Recognition System
 
-A real-time sign language recognition system built using OpenCV, Deep Learning, and deployed as a Web App.
-Our model achieves 97% accuracy on the test dataset, making it fast, reliable, and highly practical.
+A real-time sign language recognition system built using **OpenCV** and **Deep Learning**, deployed as a **Web App**. Our model achieves a robust **97% accuracy** on the test dataset, making it fast, reliable, and highly practical.
 
-OVERVIEW
-The goal of this project is to recognize hand gestures representing sign language alphabets/numbers using computer vision.
-The system captures hand gesture images through a webcam, trains a classification model on custom-collected data, and performs real-time prediction via a web app.
+---
 
-We built a complete end-to-end pipeline:
+## 💡 Project Overview
 
-Data collection using a custom script
+The core goal of this project is to recognize hand gestures representing various **sign language alphabets/numbers** using computer vision techniques.
 
-Model training
+The system captures hand gesture images through a webcam, trains a classification model on custom-collected data, and performs real-time prediction via a web application.
 
-Performance evaluation
+## ✨ Key Features
 
-Real-time prediction
+* **High Accuracy:** The classification model achieves **97% accuracy** on the test dataset.
+* **Real-Time Prediction:** Performs live sign language recognition via a web-based interface.
+* **Complete ML Pipeline:** Includes custom components for every stage of the machine learning workflow.
 
-Web-based interface for easy access
+## 🏗️ End-to-End Pipeline
+
+This project implements a complete, self-contained machine learning pipeline:
+* Data collection using a custom script.
+* Model training.
+* Performance evaluation.
+* Real-time prediction.
+* Web-based interface for easy access.
+
+## 🛠️ Technologies Used
+
+* **OpenCV:** For computer vision tasks, image processing, and webcam integration.
+* **Deep Learning (TensorFlow/Keras):** For building, training, and evaluating the classification model.
+* **Python:** The core programming language.
+* **Web Framework (e.g., Streamlit/Flask):** For deploying the real-time prediction web application (`webapp/app.py`).
+
+
